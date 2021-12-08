@@ -23,7 +23,7 @@
     },
     {
         "id": 2,
-        "text": "Most recently, I've been freelancing in the New York area, creating SVG animations and React websites for large pharmaceutical companies.",
+        "text": "Most recently, I've been working for Superfly, an experiential design company responsible for Bonnaroo, Outside Lands, and the Friends Experience. Here I manage multiple web apps in Vue and React, and manage our back end AWS databases in Node.JS.",
         "options": [
             {
                 "text": "Tell me about your web development experience",
@@ -68,7 +68,7 @@
     },
     {
         "id": 4,
-        "text": "I was a little odd, but not TOO odd. I was really into playing synthesizers and performing as if I were David Bowie or something. I fondly remmeber this time, although I wouldn't want to be that kid again.",
+        "text": "I was a little odd, but not TOO odd. I was really into playing synthesizers and performing as if I were David Bowie or something. I fondly remember this time, although I wouldn't want to be that kid again.",
         "options": [
             {
                 "text": "What have I been up to?",
@@ -86,7 +86,7 @@
     },
     {
         "id": 5,
-        "text": "I have two years of front end development under my belt already. At my previous job, I designed a JavaScript creative automation application that helped us globally scale adds for companies such as Google and Spotify. In December 2020 I completed a full stack web development bootcamp, adding to the two years of Java and JavaScript education I had in college. Most recently I worked for a large pharmaceutical company editing banner ads and Gatsby websites.",
+        "text": "Currently at Superfly, I work primarily in Next.js and Nuxt web apps, building them from scratch and creating a robust CMS for them so my coworkers can make codeless edits to our sites. At my previous job, I designed a JavaScript creative automation application that helped us globally scale adds for companies such as Google and Spotify. In December 2020 I completed a full stack web development bootcamp, adding to the two years of Java and JavaScript education I had in college. Most recently I worked for a large pharmaceutical company editing banner ads and Gatsby websites.",
         "options": [
             {
                 "text": "What have I been up to?",
@@ -104,7 +104,7 @@
     },
     {
         "id": 6,
-        "text": "I was a little odd, but not TOO odd. I was really into playing synthesizers and performing as if I were David Bowie or something. I fondly remmeber this time, although I wouldn't want to be that kid again.",
+        "text": "I was a little odd, but not TOO odd. I was really into playing synthesizers and performing as if I were David Bowie or something. I fondly remember this time, although I wouldn't want to be that kid again.",
         "options": [
             {
                 "text": "What have I been up to?",
