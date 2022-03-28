@@ -41,6 +41,7 @@ const Navbar = ({ toggle }) => {
             class=" h-8 w-8 rounded-full outline-none focus:outline-none"
             href="mailto:johnktransue@gmail.com"
             target="_blank"
+            rel="noreferrer"
             type="button"
           >
             <svg
@@ -95,6 +96,7 @@ const Navbar = ({ toggle }) => {
             class="h-8 w-8 rounded-full outline-none focus:outline-none"
             type="button"
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/jack-transue/"
           >
             <svg
@@ -113,6 +115,7 @@ const Navbar = ({ toggle }) => {
             class="h-8 w-8 rounded-full outline-none focus:outline-none"
             type="button"
             target="_blank"
+            rel="noreferrer"
             href="http://www.github.com/kiwi3p"
           >
             <svg
