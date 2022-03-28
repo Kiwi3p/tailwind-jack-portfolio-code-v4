@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Links() {
   return (
-    <div className="h-60 m-20 flex flex-row space-x-20 justify-center items-center bg-white">
+    <div className="h-60 m-20 flex md:flex-row flex-col justify-center md:space-x-20 justify-center items-center bg-white">
       {/* <Model /> */}
       <a
         href="../images/JackTransueResume032722.pdf"
@@ -13,7 +13,7 @@ function Links() {
       </a>
       <Link
         to="/github"
-        className="github up py-4 px-10 text-white bg-black rounded-full lg:text-3xl md:text-2xl sm:text-xl hover:bg-yellow-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 flex items-center"
+        className="github up py-4 my-5 px-10 text-white bg-black rounded-full lg:text-3xl md:text-2xl sm:text-xl hover:bg-yellow-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 flex items-center"
       >
         Github
       </Link>
