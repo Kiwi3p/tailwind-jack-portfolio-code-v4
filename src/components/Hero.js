@@ -12,9 +12,9 @@ function Hero() {
         Full Stack Developer
       </h1>
 
-      <Link to="/about" className="up py-4 px-10 text-white bg-yellow-500 rounded-full lg:text-3xl md:text-2xl sm:text-xl hover:bg-yellow-300 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 flex items-center...">
-        About Me
-      </Link>
+      <a href="#work" className="up py-4 px-10 text-white bg-yellow-500 rounded-full lg:text-3xl md:text-2xl sm:text-xl hover:bg-yellow-300 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 flex items-center...">
+        See My Work
+      </a>
       {/* <div
         data-aos="fade-up"
         className="orange-slice-right bg-yellow-500"

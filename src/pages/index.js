@@ -3,6 +3,7 @@ import React from "react";
 import ContentContainer from "../components/ContentContainer";
 import Hero from "../components/Hero";
 import { motion } from "framer-motion";
+import Links from "../components/Links";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       transition={{ duration: 0.4 }}
     >
       <Hero />
+      <Links />
       <ContentContainer />
     </motion.div>
   );

@@ -8,6 +8,7 @@ import About from "./pages/about";
 import Dropdown from "./components/Dropdown";
 import Contact from "./pages/contact";
 import { AnimatePresence } from "framer-motion";
+import { Router } from 'react-router-dom'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,6 +16,8 @@ function App() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
+  const url = `https://www.jack-transue.com/${Router.route}`;
 
   useEffect(() => {
     const hideMenu = () => {
@@ -34,8 +37,11 @@ function App() {
     <>
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      <AnimatePresence>
-        <Switch>
+      <AnimatePresence
+        exitBeforeEnter
+        onExitComplete={() => window.scrollTo(0, 0)}
+      >
+        <Switch canonical={url} key={url}>
           <Route path="/" exact component={Home} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/about" exact component={About} />
@@ -115,7 +121,6 @@ function App() {
         </Switch>
       </AnimatePresence>
       <Footer />
-      
     </>
   );
 }
