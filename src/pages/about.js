@@ -2,7 +2,7 @@ import React from "react";
 import Game from "../components/Game";
 // import Model from "../components/Model";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Links from "../components/Links";
 // import { animationOne, transition } from "./animation";
 
